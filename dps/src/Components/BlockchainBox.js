@@ -85,12 +85,12 @@ const BlockchainBox = () => {
                 <div className='grid grid-rows-2 grid-flow-col gap-4 p-3'>
                         <div className='h-16 w-16 bg-stone-900 rounded-md flex flex-col justify-center text-center cursor-pointer' onClick={() => { switchHandler('0x8274F') }}>
                         <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/471px-Ethereum_logo_2014.svg.png' 
-                        className='w-7 h-11 ml-4'></img>
+                        className='w-7 h-11 ml-4' alt=""></img>
                         <div className='text-xs text-white'>Scroll</div>
                     </div>
                         <div className='h-16 w-16 bg-stone-900  rounded-md flex flex-col justify-center text-center cursor-pointer' onClick={() => { switchHandler('0x13881')  }}>
                         <img src='https://seeklogo.com/images/P/polygon-matic-logo-86F4D6D773-seeklogo.com.png'
-                            className='w-10 h-11 ml-3'></img>
+                            className='w-10 h-11 ml-3' alt=""></img>
                         <div className='text-xs text-white'>Mumbai</div>
                     </div>
                         <div className='h-16 w-16 bg-stone-900  rounded-md flex flex-col justify-center text-center cursor-pointer' onClick={() => { switchHandler('0xAEF3') }}>
