@@ -5,7 +5,7 @@
 // import { shortenAddress } from "../Utils/ShortenAddress";
 // import backLogo from '../images/back.png'
 // import { type } from "@testing-library/user-event/dist/type";
-// function Verify() {
+
 //     const [Rname, setRname] = useState()
 //     const { getEmployeeName, addEmployee } = useContext(EthersContext)
 //     const [Wallet, setWallet] = useState()

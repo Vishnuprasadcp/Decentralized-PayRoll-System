@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import { EthersContext } from "../Context/EthersContext";
 import '../Styles/Salary.css'
 import { shortenAddress } from "../Utils/ShortenAddress";
-import Loader from "./Loader";
 import { ethers } from "ethers";
 
 function Transactions() {
