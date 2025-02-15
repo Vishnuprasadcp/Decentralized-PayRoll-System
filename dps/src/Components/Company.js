@@ -4,7 +4,7 @@ import { Col, Row } from "react-bootstrap";
 import { EthersContext } from "../Context/EthersContext";
 import '../Styles/Company.css'
 import Loader from "./Loader";
-import { ethers } from "ethers";
+
 
 function Company() {
   const { getEmployeeList, calculateTotalSalary, removeEmployee, payEmployees, getName, setEmpWallet } = useContext(EthersContext)
