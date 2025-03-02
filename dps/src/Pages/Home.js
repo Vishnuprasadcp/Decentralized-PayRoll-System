@@ -1,12 +1,12 @@
 import React from 'react'
 import Welcome from '../Components/Welcome'
-import { Header } from '../Components/header'
+import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 function Home() {
   return (
     <div>
-    <div className="gradient-bg-welcome">
-    <Header/>
+    <div className="gradient-bg-welcome pt-20">
+     {/* <Navbar></Navbar> */}
      <Welcome></Welcome>
      </div>
      <Footer/> 
