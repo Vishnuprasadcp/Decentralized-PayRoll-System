@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/no-redundant-roles */
-/* eslint-disable eqeqeq */
-/* eslint-disable no-unused-vars */
+
 import React, { useContext, useState, useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
 import { Col, Row } from "react-bootstrap";
